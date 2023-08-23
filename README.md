@@ -1,2 +1,2 @@
 # FrontEndDevelopment
-HTML and CSS live code while course.
+Some practice code as well as some mini projects buil with HTML, CSS, Javascript and BootStrap.
