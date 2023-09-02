@@ -1,0 +1,32 @@
+img.navbar-brand{
+    background-image: url('yourimage.png');
+    background-color: white;
+    mix-blend-mode: multiply;
+    opacity: 10;
+    height: 45px;
+    width: 30px;
+}
+nav{
+    background-color: none;
+}
+body > nav > a > img{
+    top: 18px;
+    left: 45px;
+    width: 120px;
+    height: 70px;
+    background: transparent url('./assets/images/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.navbarNav{
+    top: 42px;
+left: 230px;
+width: 54px;
+height: 25px;
+text-align: left;
+font: normal normal bold 22px/25px Garamond;
+letter-spacing: 0.44px;
+color: #141414;
+text-transform: lowercase;
+opacity: 1;
+}

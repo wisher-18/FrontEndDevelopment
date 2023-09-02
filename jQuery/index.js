@@ -1,2 +1,4 @@
-$("h1").addClass("big-title margin-50 cursive-style");
-$("a").attr("href", "https://www.bing.com");
+
+$("body").keypress(function(event) {
+  $("h1").text(event.key);
+});

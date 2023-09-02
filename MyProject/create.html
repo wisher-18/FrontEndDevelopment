@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <h1>Create Account</h1>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <select name="interest" required>
+                <option value="" disabled selected>Select Interest</option>
+                <option value="programming">Programming</option>
+                <option value="design">Design</option>
+                <option value="gaming">Gaming</option>
+                <!-- Add more options as needed -->
+            </select>
+            <select name="prefer-size" required>
+                <option value="" disabled selected>Preferred Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="newsletter"> Subscribe to Newsletter
+                </label>
+                <label>
+                    <input type="checkbox" name="agree-policy" required> Agree to Policy and Privacy
+                </label>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
